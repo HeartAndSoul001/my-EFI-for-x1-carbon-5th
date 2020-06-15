@@ -1,8 +1,8 @@
 # my-EFI-for-x1-carbon-5th
 clover文件是 x1 carbon 2017 Catalina 10.15.4的EFI文件里的clover文件夹
 （clover is the EFI file for x1 carbon 2017 on Catalina 10.15.4）
-myOCEFI是 x1 carbon 2017 Catalina 10.15.4 的EFI文件
-（myOCEFI is the EFI file for x1 carbon 2017 on Catalina 10.15.4）
+myOCEFI是 x1 carbon 2017 在 Catalina 10.15.5 系统 引导为OC 0.5.9 的EFI文件,此版本EFI文件将作为常更新的版本
+（myOCEFI is the EFI file for x1 carbon 2017 on Catalina 10.15.5 with OC bootloader 0.5.9，and will be updated after changing）
 
 x1 carbon 2017:
 CPU: i7-7600U
