@@ -17,5 +17,5 @@ SYSTEM: MACOS(单系统)
 （No matter which version, i advice you add the smbios and use it. And if you haven't replaced your wifi with bircm wifi, please remove the relevant kext in kext/other/(clover) or kext/(OC,and change the config.plist)）
 
 黑果情况（这里只介绍OC引导的黑果状况）：how is the hachintosh on my laptop just in OC:
-除了thunderbolt热拔插、hdmi有小问题其他一切正常
+除了thunderbolt热拔插、hdmi有小问题，！！！其他一切正常！！！
 （everything is ok except thunderbolt,hdmi）
