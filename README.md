@@ -1,8 +1,8 @@
 # 一、文件说明
 clover文件是 x1 carbon 2017 Catalina 10.15.4的EFI文件里的clover文件夹
 （clover is the EFI file for x1 carbon 2017 on Catalina 10.15.4）
-myOCEFI是 x1 carbon 2017 在 monterey 12.1 系统 引导为OC 0.7.6 的EFI文件,此版本EFI文件将作为常更新的版本
-（myOCEFI is the EFI file for x1 carbon 2017 on big sur 12.1 with OC bootloader 0.7.6，and will be updated after changing）
+myOCEFI是 x1 carbon 2017 在 monterey 12.1 系统 引导为 OC 的EFI文件,此版本EFI文件将作为常更新的版本
+（myOCEFI is the EFI file for x1 carbon 2017 on big sur 12.1 with OC bootloader，and will be updated after changing）
 
 # 二、硬件配置
 x1 carbon 2017:
@@ -28,9 +28,10 @@ SYSTEM: MACOS(单系统)
 
 # 四、更新日志（changelog）:
 
-| 序号 |    时间    |      OC版本      |   系统版本    |                           改动内容                           |
-| :--: | :--------: | :--------------: | :-----------: | :----------------------------------------------------------: |
-|  1   | 2021.12.23 | OC version 0.7.6 | Monterey 12.1 |                         更新 OC 版本                         |
-|  2   | 2021.12.27 | OC version 0.7.6 | Monterey 12.1 | 添加驱动 CpuTscSync.kext 来尝试修复睡眠唤醒后的的冻屏现象（有待验证结果） |
-|  3   | 2022.01.03 | OC version 0.7.6 | Monterey 12.1 | 之前的冻屏现象依然存在，不插电源会随机性的触控板和键盘没有反应，只有屏幕亮着，毫无反馈。本次更新内容为回退配置，并修补了核显的framebuffer相关参数 |
+| 序号 |    时间    |      OC版本      |      系统版本       |                           改动内容                           |
+| :--: | :--------: | :--------------: | :-----------------: | :----------------------------------------------------------: |
+|  1   | 2021.12.23 | OC version 0.7.6 |    Monterey 12.1    |                         更新 OC 版本                         |
+|  2   | 2021.12.27 | OC version 0.7.6 |    Monterey 12.1    | 添加驱动 CpuTscSync.kext 来尝试修复睡眠唤醒后的的冻屏现象（有待验证结果） |
+|  3   | 2022.01.03 | OC version 0.7.6 |    Monterey 12.1    | 之前的冻屏现象依然存在，不插电源会随机性的触控板和键盘没有反应，只有屏幕亮着，毫无反馈。本次更新内容为回退配置，并修补了核显的framebuffer相关参数 |
+|  4   | 2022.01.13 | OC version 0.7.7 | Monterey 12.2 beta1 |                更新OC版本0.7.7，新增启动界面                 |
 
