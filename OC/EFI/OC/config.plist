@@ -772,9 +772,15 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>AAAWWQ==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>AAPL00,override-no-connect</key>
+				<data>AP///////wAGEHycAAAAAAEaAQSlHxFgAm+xp1VMniUMUFQAAAABAQEBAQEBAQEBAQEBAQEBpqaA3nA4FEA8IDYANa0QAAAaMCyA3nA4FEAwIDYANa0QAAAaAAAA/gBCT0UgQ1EKICAgICAgAAAA/gBIVjE0MEZITS1ONjEKAMA=</data>
 				<key>device-id</key>
 				<data>FlkAAA==</data>
-				<key>disable-external-gpu</key>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>enable-max-pixel-clock-override</key>
 				<data>AQAAAA==</data>
 				<key>force-online</key>
 				<data>AQAAAA==</data>
@@ -782,22 +788,16 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-type</key>
 				<data>AAgAAA==</data>
-				<key>framebuffer-con2-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con2-index</key>
-				<data>/////w==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-pipecount</key>
-				<data>AgAAAA==</data>
-				<key>framebuffer-portcount</key>
-				<data>AgAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
+				<key>model</key>
+				<string>Intel HD Graphics 620</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1592,7 +1592,7 @@
 			<key>ApplePanic</key>
 			<false/>
 			<key>DisableWatchDog</key>
-			<false/>
+			<true/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
@@ -1644,7 +1644,7 @@
 			<key>EnablePassword</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
-			<integer>6</integer>
+			<integer>3</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>

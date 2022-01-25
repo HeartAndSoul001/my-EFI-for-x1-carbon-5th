@@ -34,4 +34,5 @@ SYSTEM: MACOS(单系统)
 |  2   | 2021.12.27 | OC version 0.7.6 |    Monterey 12.1    | 添加驱动 CpuTscSync.kext 来尝试修复睡眠唤醒后的的冻屏现象（有待验证结果） |
 |  3   | 2022.01.03 | OC version 0.7.6 |    Monterey 12.1    | 之前的冻屏现象依然存在，不插电源会随机性的触控板和键盘没有反应，只有屏幕亮着，毫无反馈。本次更新内容为回退配置，并修补了核显的framebuffer相关参数 |
 |  4   | 2022.01.13 | OC version 0.7.7 | Monterey 12.2 beta1 |                更新OC版本0.7.7，新增启动界面                 |
+|  5   | 2022.01.25 | OC version 0.7.7 |    Monterey 12.1    | 又更新了，具体更新内容：这段时间我回到了windows环境下，更新了最新的Thinkpad的bios版本，此举动为了修复序号3中的冻屏现象，怀疑是intel对cpu底层做了改动，导致苹果也对intel版本的mac底层的东西做了修改；查看Thinkpad x1 carbon 2017最新的bios驱动，更新内容也确实涉及到cpu微码的更新，具体如下：<br /><1.53>：<br />UEFI: 1.53 / ECP: 1.22<br />\- [重要] 更新包括安全修复.<br />\- (新增) 更新CPU微码.<br />\- (修正) 安装 OPAL 管理软件时通过 Windows Update 更新设备固件失败的问题.<br /><br />本次EFI文件的改动内容为：<br />1.核显的properties改动，修复连接HDMI外接显示器开机导致的黑屏现象；<br />2.干掉了看门狗（watchdog）panic |
 
