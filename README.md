@@ -1,7 +1,7 @@
 # 一、文件说明
 clover文件是 x1 carbon 2017 Catalina 10.15.4的EFI文件里的clover文件夹
 （clover is the EFI file for x1 carbon 2017 on Catalina 10.15.4）
-myOCEFI是 x1 carbon 2017 在 monterey 12.1 系统 引导为 OC 的EFI文件,此版本EFI文件将作为常更新的版本
+myOCEFI是 x1 carbon 2017 在 monterey 12.2.1 系统 引导为 OC 的EFI文件,此版本EFI文件将作为常更新的版本，推荐使用。
 （myOCEFI is the EFI file for x1 carbon 2017 on big sur 12.1 with OC bootloader，and will be updated after changing）
 
 # 二、硬件配置
@@ -36,4 +36,5 @@ SYSTEM: MACOS(单系统)
 |  4   | 2022.01.13 | OC version 0.7.7 | Monterey 12.2 beta1 |                更新OC版本0.7.7，新增启动界面                 |
 |  5   | 2022.01.25 | OC version 0.7.7 |    Monterey 12.1    | 又更新了，具体更新内容：本次EFI文件的改动内容为：<br />1.核显的properties改动，修复连接HDMI外接显示器开机导致的黑屏现象；<br />2.干掉了看门狗（watchdog）panic |
 |  6   | 2022.02.18 | OC version 0.7.8 |    Monterey 12.2    | 更新了Cputscsync.kext debug 版本，果然卡死的现象消失了，看来的确是因为cpu 线程同步的原因 |
+|  7   | 2022.03.08 | OC version 0.7.9 |   Monterey 12.2.1   |                 日常更新oc引导版本和各种驱动                 |
 
