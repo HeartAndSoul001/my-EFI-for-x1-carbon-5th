@@ -1,8 +1,8 @@
 # 一、文件说明
 1. clover文件是 x1 carbon 2017 Catalina 10.15.4的EFI文件里的clover文件夹
    （clover is the EFI file for x1 carbon 2017 on Catalina 10.15.4）
-2. OC是 x1 carbon 2017 在 monterey 12.2.1 系统 引导为 OC 的EFI文件,此版本EFI文件将作为常更新的版本，推荐使用。
-   （OC is the EFI file for x1 carbon 2017 on big sur 12.1 with OC bootloader，and will be updated after changing）
+2. OC是 x1 carbon 2017 在 monterey 系统 引导为 OC 的EFI文件,此版本EFI文件将作为常更新的版本，推荐使用。
+   （OC is the EFI file for x1 carbon 2017 on Monterey with OC bootloader，and will be updated after changing）
 
 # 二、硬件配置
 x1 carbon 2017:
