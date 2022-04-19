@@ -38,4 +38,4 @@ x1 carbon 2017:
 |  5   | 2022.01.25 | OC version 0.7.7 |    Monterey 12.1    | 又更新了，具体更新内容：本次EFI文件的改动内容为：<br />1.核显的properties改动，修复连接HDMI外接显示器开机导致的黑屏现象；<br />2.干掉了看门狗（watchdog）panic |
 |  6   | 2022.02.18 | OC version 0.7.8 |    Monterey 12.2    | 更新了Cputscsync.kext debug 版本，果然卡死的现象消失了，看来的确是因为cpu 线程同步的原因 |
 |  7   | 2022.03.08 | OC version 0.7.9 |   Monterey 12.2.1   |                 日常更新oc引导版本和各种驱动                 |
-
+|  8   | 2022.04.19 | OC version 0.8.0 |  Monterey  12.3.1   | 1. 更新OC引导0.8.0<br>2.利用VoodooRMI.kext替代VoodooPS2-->Trackpad和mouse，提升使用体验<br>3.利用ecEnhancer.kext代替原有acpi和patch<br />4.其他一些小改动 |
