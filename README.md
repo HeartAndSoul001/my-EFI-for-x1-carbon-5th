@@ -1,8 +1,8 @@
 # 一、文件说明
 1. clover文件是 x1 carbon 2017 Catalina 10.15.4的EFI文件里的clover文件夹
    （clover is the EFI file for x1 carbon 2017 on Catalina 10.15.4）
-2. OC是 x1 carbon 2017 在 Ventura 13.0 beta3 系统 引导为 OC 的EFI文件,此版本EFI文件将作为常更新的版本，推荐使用。
-   （OC is the EFI file for x1 carbon 2017 on Ventura 13.0 beta3 with OC bootloader，and will be updated after changing）
+2. OC是 x1 carbon 2017 在 Ventura 13.0 beta4 系统 引导为 OC 的EFI文件,此版本EFI文件将作为常更新的版本，推荐使用。
+   （OC is the EFI file for x1 carbon 2017 on Ventura 13.0 beta4 with OC bootloader，and will be updated after changing）
 
 # 二、硬件配置
 x1 carbon 2017:
@@ -41,3 +41,4 @@ x1 carbon 2017:
 |  8   | 2022.04.19 | OC version 0.8.0 |  Monterey  12.3.1   | 1. 更新OC引导0.8.0<br>2.利用VoodooRMI.kext替代VoodooPS2-->Trackpad和mouse，提升使用体验<br>3.利用ecEnhancer.kext代替原有acpi和patch<br />4.其他一些小改动 |
 |  9   | 2022.06.07 | OC version 0.8.1 |    Monterey 12.4    | 1. 更新OC引导0.8.1<br />2. 另外 MacOS 13 终于出咯，感觉还不错，本来打算这个笔记本Monterey 以后就不在往上升级了，但现在一看新增功能还不错，打算这个笔记本再追一个大版本>_< |
 |  10  | 2020.07.13 | OC version 0.8.2 | Ventura 13.0 beta3  | 1.更新 Vetura 13.0 第一个公测版，目前使用稳定<br />2.更新OC 0.8.2 |
+|  11  | 2022.08.03 | OC version 0.8.3 | Ventura 13.0 beta4  | 1.更新 Vetura 13.0 beta4版本，目前使用稳定<br />2.更新OC 0.8.3 |
