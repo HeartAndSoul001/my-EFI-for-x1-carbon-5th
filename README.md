@@ -43,3 +43,5 @@ x1 carbon 2017:
 |  10  | 2020.07.13 | OC version 0.8.2 | Ventura 13.0 beta3  | 1.更新 Vetura 13.0 第一个公测版，目前使用稳定<br />2.更新OC 0.8.2 |
 |  11  | 2022.08.03 | OC version 0.8.3 | Ventura 13.0 beta4  | 1.更新 Vetura 13.0 beta4版本，目前使用稳定<br />2.更新OC 0.8.3 |
 |  12  | 2022.12.29 | OC version 0.8.7 |    Ventura 13.1     |   1.更新Ventura 13.1版本，目前使用稳定<br />2.更新OC 0.8.7   |
+|  13  | 2023.01.03 | OC version 0.8.8 |    Ventura 13.1     |                1.更新OC 0.8.8以及一些常用驱动                |
+|      |            |                  |                     |                                                              |
