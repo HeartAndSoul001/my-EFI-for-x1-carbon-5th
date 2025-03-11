@@ -1,8 +1,8 @@
 # 一、文件说明
 1. clover文件是 x1 carbon 2017 Catalina 10.15.4的EFI文件里的clover文件夹
    （clover is the EFI file for x1 carbon 2017 on Catalina 10.15.4）
-2. OC是 x1 carbon 2017 在 Ventura 13.6.9 系统 引导为 OC 的EFI文件,此版本EFI文件将作为常更新的版本，推荐使用。
-   （OC is the EFI file for x1 carbon 2017 on Ventura 13.6.9 with OC bootloader，and will be updated after changing）
+2. OC是 x1 carbon 2017 在 Ventura 13.7.4 系统 引导为 OC 的EFI文件,此版本EFI文件将作为常更新的版本，推荐使用。
+   （OC is the EFI file for x1 carbon 2017 on Ventura 13.7.4 with OC bootloader，and will be updated after changing）
 
 # 二、硬件配置
 x1 carbon 2017:
@@ -11,7 +11,7 @@ x1 carbon 2017:
 - SSD: 970 EVO 1T
 
 - SCREEN: 1080P
-- WIFI: BCM94360CS2(已更换)
+- WIFI: BCM94360Z3(已更换原有intel网卡the original Intel card has been replaced)
 - SYSTEM: MACOS(单系统)
 
 # 三、注意（tips）：
@@ -42,4 +42,5 @@ x1 carbon 2017:
 |  9   | 2022.06.07 | OC version 0.8.1 |    Monterey 12.4    | 1. 更新OC引导0.8.1<br />2. 另外 MacOS 13 终于出咯，感觉还不错，本来打算这个笔记本Monterey 以后就不在往上升级了，但现在一看新增功能还不错，打算这个笔记本再追一个大版本>_< |
 |  10  | 2023.03.13 | OC version 0.9.0 |   Ventura 13.2.1    | 1.更新OC 0.9.0<br/>后续将不会频繁更新版本，直到较大改动发生  |
 |  11  | 2024.08.23 | OC version 1.0.1 |   Ventura 13.6.9    | 1.更新OC 1.0.1<br/>后续将不会频繁更新版本，直到较大改动发生  |
+|  12  | 2025.03.11 | OC version 1.0.4 |   Ventura 13.7.4    |                        1.更新OC 1.0.4                        |
 |      |            |                  |                     |                                                              |
